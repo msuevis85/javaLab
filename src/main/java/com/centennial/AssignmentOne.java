@@ -1,4 +1,4 @@
-package com.centennial.laboratory;
+package com.centennial;
 
 import com.centennial.model.Menu;
 
