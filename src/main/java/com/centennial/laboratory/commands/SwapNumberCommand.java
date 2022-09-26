@@ -18,9 +18,10 @@ public class SwapNumberCommand implements ICommand{
     }
 
     public void printSwapNumbers(){
-       System.out.println("The value of number 1 before swap is : "+ this.number1+" and number 2 before swap is "+this.number2);
+       System.out.println(String.format("The value of A : %s and B : %s",this.number1,this.number2));
        swap();
-       System.out.println("The value of number 1 after swap is : "+ this.number1+" and number 2 after swap is "+this.number2);
+       System.out.println("After swap....");
+       System.out.println(String.format("The value of A : %s and B : %s",this.number1,this.number2));
     }
 
     private void swap(){
